@@ -1,0 +1,6 @@
+String: (x+y)*( | isExpression: false
+String: x+110-(y+(110+z)) | isExpression: true
+String: 1+1+x+y+z- | isExpression: false
+String: (110*(x+y)*((1+0)+110*(0+1))+x) | isExpression: true
+String: x+0+(1+(1+(1+(z)))) | isExpression: true
+ERROR: number of symbols must be an int number > 0 and < 1000. Line number: 11
